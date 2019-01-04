@@ -1,0 +1,42 @@
+const double ALICE_BOOST = 7.5;
+const double ALICE_HORIZONTAL_SPEED = 4;
+const double ALICE_BOOST_SPEED = 70;
+const double MIN_ALICE_LEFT_POSITION = 0;
+const double MAX_ALICE_RIGHT_POSITION = 1255;
+const double MAX_ALICE_UP_POSITION = 0;
+const double MIN_ALICE_DOWN_POSITION = 500;
+
+const double DRAGON_BOOST = 5;
+const double DRAGON_BOOST_SPEED = 200;
+const double DRAGON_HORIZONTAL_SPEED = 8;
+const double MIN_DRAGON_LEFT_POSITION = 1;
+const double MAX_DRAGON_RIGHT_POSITION = 999;
+const double MAX_DRAGON_UP_POSITION = 0;
+const double MIN_DRAGON_DOWN_POSITION = 400;
+const double MAX_DRAGON_STAY = 3000;
+
+const double MAX_CLOUDS_DISPLACEMENT = 200;
+const double UPPER_CLOUDS_SPEED = 30;
+const double DOWNER_CLOUDS_SPEED = 20;
+
+const double EPS = 1e-6;
+const double MILLI_SECOND_FOR_ONE_PHOTO = 100;
+const double MILLI_SECOND_FOR_KICK_PHOTO = 150;
+const double MILLI_SECOND_FOR_ACTION = 9.9;
+const double MIN_VALUE_BOOST = -10;
+
+const int WINDOW_HEIGH = 700;
+const int WINDOW_LENGTH = 1300;
+
+const int ALICE_PHOTO_LENGTH = 45;
+const int ALICE_PHOTO_HIGH = 100;
+const int COUNT_ALICE_PHOTO = 9;
+
+const int DRAGON_RANDOM_MODUL = 1000;
+const int DRAGON_RANDOM_DISPLACEMENT = 500;
+const int DRAGON_PHOTO_LENGTH = 300;
+const int DRAGON_PHOTO_HIGH = 200; 
+const int DRAGON_HEALTH_POINTS = 10;
+
+const int FIRST_STRANGE_CONST = 25;
+const int SECOND_STRANGE_CONST = 150;
