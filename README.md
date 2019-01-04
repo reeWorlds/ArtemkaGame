@@ -1,0 +1,2 @@
+# ArtemkaGame
+constants only
