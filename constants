@@ -1,3 +1,5 @@
+/// ---------- Level 1.2 -------------
+
 const double ALICE_BOOST = 7.5;
 const double ALICE_HORIZONTAL_SPEED = 4;
 const double ALICE_BOOST_SPEED = 70;
@@ -40,3 +42,5 @@ const int DRAGON_HEALTH_POINTS = 10;
 
 const int FIRST_STRANGE_CONST = 25;
 const int SECOND_STRANGE_CONST = 150;
+
+/// ------------ End Level 1.2 --------
