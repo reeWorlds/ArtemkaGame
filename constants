@@ -52,6 +52,12 @@ const int SECOND_STRANGE_CONST = 150;
 const int COUNT_PROBLEMS = 13;
 const int TRUE_FINISH = 32;
 
+double CoordinateZeroArchBegin = 700;
+double CoordinateZeroArchEnd = 855;
+double CoordinateOneArchBegin = 900;
+double CoordinateOneArchEnd = 1055;
+double CoordinateTwoArchBegin = 1100;
+
 /// ------------ End Level 1.1 --------
 /// ------------ Cut Scene 1.1 --------
 
