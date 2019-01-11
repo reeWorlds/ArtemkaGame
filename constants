@@ -1,6 +1,9 @@
 #ifndef CONSTANTS_DB
 #define CONSTANTS_DB
 
+const int WINDOW_HEIGH = 700;
+const int WINDOW_LENGTH = 1300;
+
 /// ---------- Level 1.2 -------------
 
 const double ALICE_BOOST = 7.5;
@@ -30,9 +33,6 @@ const double MILLI_SECOND_FOR_KICK_PHOTO = 150;
 const double MILLI_SECOND_FOR_ACTION = 9.9;
 const double MIN_VALUE_BOOST = -10;
 
-const int WINDOW_HEIGH = 700;
-const int WINDOW_LENGTH = 1300;
-
 const int ALICE_PHOTO_LENGTH = 45;
 const int ALICE_PHOTO_HIGH = 100;
 const int COUNT_ALICE_PHOTO = 9;
@@ -52,11 +52,11 @@ const int SECOND_STRANGE_CONST = 150;
 const int COUNT_PROBLEMS = 13;
 const int TRUE_FINISH = 32;
 
-double CoordinateZeroArchBegin = 700;
-double CoordinateZeroArchEnd = 855;
-double CoordinateOneArchBegin = 900;
-double CoordinateOneArchEnd = 1055;
-double CoordinateTwoArchBegin = 1100;
+const double CoordinateZeroArchBegin = 700;
+const double CoordinateZeroArchEnd = 855;
+const double CoordinateOneArchBegin = 900;
+const double CoordinateOneArchEnd = 1055;
+const double CoordinateTwoArchBegin = 1100;
 
 /// ------------ End Level 1.1 --------
 /// ------------ Cut Scene 1.1 --------
@@ -66,5 +66,25 @@ const int SQUIRREL_PHOTO_LENGTH = 60;
 const int SQUIRREL_PHOTO_HEIGH = 100;
 
 /// ------------ End Cut Scene 1.1 ----
+
+
+/// ------------ Level 2.1 ------------
+
+const double CONST_PI = 3.14159265;
+
+const double BLOCK_SIZE = 25.0;
+const double BALL_RADIUS = 20.0;
+const double PANNEL_SIZE_X = 200.0;
+const double PANNEL_SIZE_Y = 40.0;
+const double SUPER_RANDOM_SHUFFLE_WHO_KNOW_WHY = 6.0;
+const double PIXELS_PER_MICROSECOND = 0.000666;
+const int MICRO_ROTATE_MODULO = 5;
+const double SPEED_MODIFICATOR = 1.15;
+const int MAP_SIZE_X = 52;
+const int MAP_SIZE_Y = 28;
+
+
+/// ------------ End Level 2.1 --------
+
 
 #endif
